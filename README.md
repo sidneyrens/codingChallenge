@@ -8,6 +8,7 @@ Get as many of the challenges completed before the ~~challenge~~ world ends at 1
 - Turn in your answers to the #coding-challenge Slack channel
 - Winner will be announced Monday; get the most points here and get the most points on Engage!
 
+
 ### 1. Two Sum
 
 Given an array of integers `nums` and an integer `target`, return _indices of the two numbers such that they add up to_ `target`.
@@ -32,6 +33,7 @@ Output: [1,2]
 Input: nums = [3,3], target = 6
 Output: [0,1]
 ```
+
 
 ### 2. Add Two Numbers
 
@@ -62,6 +64,7 @@ Output: [8,9,9,9,0,0,0,1]
 - The number of nodes in each linked list is in the range [1, 100].
 - 0 <= Node.val <= 9
 - It is guaranteed that the list represents a number that does not have leading zeros.
+
 
 ### 3. Longest Substring Without Repeating Characters
 
@@ -94,6 +97,7 @@ Output: 0
 Constraints:
 -0 <= s.length <= 5 ** 104
 -s consists of English letters, digits, symbols and spaces.
+
 
 ### 4. Median of Two Sorted Arrays
 
@@ -131,6 +135,7 @@ Constraints:
 - `1 <= m + n <= 2000`
 - `-10^6 <= nums1[i], nums2[i] <= 106`
 
+
 ### 5. Longest Palindromic Substring
 
 Given a string `s`, return the longest palindromic substring in `s`.
@@ -160,6 +165,7 @@ Constraints:
 - `1 <= s.length <= 1000`
 - `s` consist of only digits and English letters (lower-case and/or upper-case)
 
+
 ### 6. Integer to Roman
 
 Roman numerals are represented by seven different symbols: `I, V, X, L, C, D and M`.
@@ -183,6 +189,7 @@ Roman numerals are usually written largest to smallest from left to right. Howev
 `X` can be placed before `L` (50) and `C` (100) to make 40 and 90. 
 `C` can be placed before `D` (500) and `M` (1000) to make 400 and 900.
 Given an integer, convert it to a roman numeral.
+
 
 **Test Case 1:**
 ```
@@ -215,6 +222,7 @@ Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 Constraints:
 - `1 <= num <= 3999`
 
+
 ### 7. Valid Parenthesis
 
 Given a string `s` containing just the characters `'(', ')', '{', '}', '[' and ']'`, determine if the input string is valid.
@@ -223,6 +231,7 @@ An input string is valid if:
 
 Open brackets must be closed by the same type of brackets.
 Open brackets must be closed in the correct order.
+
 
 **Test Case 1:**
 ```
@@ -254,11 +263,13 @@ Constraints:
 - `1 <= s.length <= 10^4`
 - s consists of parentheses only '`()[]{}'`.
 
+
 ### 8. Group Anagrams
 
 Given an array of strings strs, group the anagrams together. You can return the answer in any order.
 
 An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+
 
 **Test Case 1:**
 ```
@@ -281,9 +292,11 @@ Constraints:
 - `0 <= strs[i].length <= 100`
 - `strs[i]` consists of lower-case English letters.
 
+
 ### 9. Search Insert Position
 
 Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+
 
 **Test Case 1:**
 ```
@@ -317,6 +330,7 @@ Constraints:
 - `nums` contains distinct values sorted in ascending order.
 - `-10^4 <= target <= 10^4`
 
+
 ### 10. Implement strStr()
 
 Implement `strStr()`.
@@ -328,6 +342,7 @@ Return the index of the first occurrence of needle in haystack, or `-1` if needl
 What should we return when `needle` is an empty string? This is a great question to ask during an interview.
 
 For the purpose of this problem, we will return 0 when `needle` is an empty string. This is consistent to C's `strstr()` and Java's `indexOf()`.
+
 
 **Test Case 1:**
 ```
@@ -349,13 +364,13 @@ Constraints:
 - `0 <= haystack.length, needle.length <= 5 * 10^4`
 - `haystack` and `needle` consist of only lower-case English characters.
 
+
 ### 11. Length of Last Word
 Given a string s consists of some words separated by spaces, return the length of the last word in the string. If the last word does not exist, return 0.
 ​
 A word is a maximal substring consisting of non-space characters only.
 ​
  
-​
 **Test Case 1:**
 ```
 Input: s = "Hello World"
@@ -374,6 +389,7 @@ Constraints:
 - `1 <= s.length <= 104`
 - s consists of only English letters and spaces ' 
 ​
+
 ### 12. Spiral Matrix 
 ​
 Given a positive integer n, generate an n x n matrix filled with elements from 1 to n2 in spiral order.
@@ -398,6 +414,7 @@ Output: [[1]]
 **Constraints:**
 - `1 <= n <= 20`
 ​
+
 ### 13. Edit Distance 
 ​
 Given two strings word1 and word2, return the minimum number of operations required to convert word1 to word2.
@@ -435,12 +452,14 @@ exection -> execution (insert 'u')
 ​
 - `0 <= word1.length, word2.length <= 500`
 - word1 and word2 consist of lowercase English letters.
+
 ​
 ### 14. Climbing Stairs
 ​
 You are climbing a staircase. It takes n steps to reach the top.
 ​
 Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
+
 ​
 **Test Case 1**
 ```
@@ -463,12 +482,14 @@ Explanation: There are three ways to climb to the top.
 ​
 **Constraints:**
 - `1 <= n <= 45`
+
 ​
 ### 15. Merge Sorted Array
 ​
 Given two sorted integer arrays nums1 and nums2, merge nums2 into nums1 as one sorted array.
 ​
 The number of elements initialized in nums1 and nums2 are m and n respectively. You may assume that nums1 has a size equal to m + n such that it has enough space to hold additional elements from nums2.
+
 ​
 **Test Case 1**
 ```
