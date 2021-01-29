@@ -377,6 +377,7 @@ Constraints:
 ### 12. Spiral Matrix 
 ​
 Given a positive integer n, generate an n x n matrix filled with elements from 1 to n2 in spiral order.
+
 ​
 ​![Matrix](spiraln.jpg)
 
