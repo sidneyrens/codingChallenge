@@ -349,6 +349,144 @@ Constraints:
 - `0 <= haystack.length, needle.length <= 5 * 10^4`
 - `haystack` and `needle` consist of only lower-case English characters.
 
+### 11. Length of Last Word
+Given a string s consists of some words separated by spaces, return the length of the last word in the string. If the last word does not exist, return 0.
+​
+A word is a maximal substring consisting of non-space characters only.
+​
+ 
+​
+**Test Case 1:**
+```
+Input: s = "Hello World"
+Output: 5
+```
+​
+**Test Case 2:**
+```
+Input: s = " "
+Output: 0
+```
+ 
+​
+Constraints:
+​
+- `1 <= s.length <= 104`
+- s consists of only English letters and spaces ' 
+​
+### 12. Spiral Matrix 
+​
+Given a positive integer n, generate an n x n matrix filled with elements from 1 to n2 in spiral order.
+​
+​
+​
+**Test Case 1**
+![Nodes](spiraln.jpg)
+​
+```
+Input: n = 3
+Output: [[1,2,3],[8,9,4],[7,6,5]]
+```
+**Test Case 2**
+​
+```
+Input: n = 1
+Output: [[1]]
+```
+​
+**Constraints:**
+​
+- `1 <= n <= 20`
+​
+### 13. Edit Distance 
+​
+Given two strings word1 and word2, return the minimum number of operations required to convert word1 to word2.
+​
+You have the following three operations permitted on a word:
+​
+Insert a character
+Delete a character
+Replace a character
+ 
+​
+**Test Case 1**
+```
+Input: word1 = "horse", word2 = "ros"
+Output: 3
+Explanation: 
+horse -> rorse (replace 'h' with 'r')
+rorse -> rose (remove 'r')
+rose -> ros (remove 'e')
+``` 
+​
+**Test Case 2**
+```
+Input: word1 = "intention", word2 = "execution"
+Output: 5
+Explanation: 
+intention -> inention (remove 't')
+inention -> enention (replace 'i' with 'e')
+enention -> exention (replace 'n' with 'x')
+exention -> exection (replace 'n' with 'c')
+exection -> execution (insert 'u')
+ ```
+​
+**Constraints:**
+​
+- `0 <= word1.length, word2.length <= 500`
+- word1 and word2 consist of lowercase English letters.
+​
+### 14. Climbing Stairs
+​
+You are climbing a staircase. It takes n steps to reach the top.
+​
+Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
+​
+**Test Case 1**
+```
+Input: n = 2
+Output: 2
+Explanation: There are two ways to climb to the top.
+1. 1 step + 1 step
+2. 2 steps
+```
+​
+**Test Case 2**
+```
+Input: n = 3
+Output: 3
+Explanation: There are three ways to climb to the top.
+1. 1 step + 1 step + 1 step
+2. 1 step + 2 steps
+3. 2 steps + 1 step
+ ```
+​
+**Constraints:**
+- `1 <= n <= 45`
+​
+### 15. Merge Sorted Array
+​
+Given two sorted integer arrays nums1 and nums2, merge nums2 into nums1 as one sorted array.
+​
+The number of elements initialized in nums1 and nums2 are m and n respectively. You may assume that nums1 has a size equal to m + n such that it has enough space to hold additional elements from nums2.
+​
+**Test Case 1**
+```
+Input: nums1 = [1,2,3,0,0,0], m = 3, nums2 = [2,5,6], n = 3
+Output: [1,2,2,3,5,6]
+```
+**Test Case 2**
+```
+Input: nums1 = [1], m = 1, nums2 = [], n = 0
+Output: [1]
+```
+ 
+**Constraints:**
+- `nums1.length == m + n`
+- `nums2.length == n`
+- `0 <= m, n <= 200`
+- `1 <= m + n <= 200`
+- `10^9 <= nums1[i], nums2[i] <= 10^9`
 
 
 
